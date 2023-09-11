@@ -1,0 +1,276 @@
+body {
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+
+header {
+    height: 70vh;
+    background-image: url(./Image/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Nevigation bar */
+
+nav img {
+    width: 190px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+nav button {
+    float: right;
+    padding: 6px 10px 6px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: navy;
+    margin: 35px;
+    margin-right: 300px;
+}
+
+/* Paragraph */
+
+.head {
+    text-align: center;
+}
+
+#First-para {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+#second-para {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#third-para {
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+/* Email Box */
+
+#Email-box {
+    padding: 20px 200px 20px 20px;
+    background-color: transparent;
+    border: 2px solid rgb(211, 209, 209);
+    color: rgb(230, 216, 216);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* Button */
+
+#button {
+    padding: 15px 30px 18px 30px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+/* second section */
+
+#second-section {
+    padding: 10px;
+    margin-top: 10px;
+    height: 60vh;
+    background-color: black;
+    background-image: url(./Image/Second-box.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: 50%;
+}
+
+#second-section h3 {
+    font-size: 50px;
+    margin-top: 190px;
+    margin-left: 300px;
+    font-weight: 900;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#second-section p {
+    margin-left: 300px;
+    font-size: 25px;
+}
+
+/* Third section */
+
+#third-section {
+    height: 60vh;
+    margin-top: 10px;
+    background-image: url(./Image/Third-box.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position-x: 20%;
+    background-position-y: 40%;
+}
+
+#third-section h3 {
+    float: right;
+    margin-right: 350px;
+    margin-top: 200px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+#third-section h3 p {
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+/* Fourth section */
+
+#fourth-section {
+    height: 60vh;
+    margin-top: 10px;
+    padding: 10px;
+    background-image: url(./Image/Fourth-box.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position-x: 950px;
+    background-position-y: 50%;
+}
+
+#fourth-section h3 {
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-bottom: 1px;
+}
+
+#fourth-section p {
+    margin-top: 25px;
+    margin-left: 300px;
+}
+
+/* Five section */
+
+#five-section {
+    height: 60vh;
+    background-image: url(./Image/Five-box.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    padding-top: 1px;
+    margin-top: 10px;
+    background-position-x: 20%;
+    background-position-y: 40%;
+}
+
+#five-section h3 {
+    float: right;
+    margin-right: 350px;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+#five-section h3 p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/* Six Section */
+
+#six-box {
+    height: 100vh;
+    background-color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#Title-sixBox {
+    margin-top: 0px;
+    padding-top: 40px;
+    font-size: 60px;
+}
+
+#input1,
+#input2,
+#input3,
+#input4,
+#input5,
+#input6 {
+    background-color: rgb(41, 41, 41);
+    display: inline-block;
+    padding: 20px 900px 20px 40px;
+    margin: 8px;
+    color: rgb(116, 116, 116);
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(41, 41, 41);
+}
+
+#six-box h4 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+/* Footer section */
+
+footer {
+    height: 40vh;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    padding: 60px 0px 0px 300px;
+}
+
+footer p {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#footer-box1,
+#footer-box2,
+#footer-box3 {
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    /* background-color: red; */
+    line-height: 30px;
+}
+
+#footer-box1 {
+    margin-right: 150px;
+}
+
+#footer-box2 {
+    margin-right: 150px;
+    vertical-align: top;
+}
+
+#footer-box3 {
+    vertical-align: top;
+}
+
+#footer-box1 ul li,
+#footer-box2 ul li,
+#footer-box3 ul li {
+    list-style: none;
+}
+
+#footer-box1 button {
+    margin-left: 40px;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
